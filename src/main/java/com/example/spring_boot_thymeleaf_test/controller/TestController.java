@@ -34,7 +34,7 @@ public class TestController {
     @RequestMapping("/index")
     public ModelAndView index(){
         ModelAndView model = new ModelAndView("/test");
-        Person single = new Person("Amy",21);
+        Person single = new Person("Amy",22);
         List<Person> people = new ArrayList<Person>();
         Person p1 = new Person("旋涡鸣人",12);
         Person p2 = new Person("佐助",12);
